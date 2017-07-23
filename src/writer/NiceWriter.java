@@ -1,5 +1,8 @@
 package writer;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class NiceWriter {
 	public void writer (String s){
         System.out.println("The string is " + s);
